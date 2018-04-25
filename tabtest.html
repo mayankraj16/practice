@@ -1,0 +1,163 @@
+<html>
+    <head>
+         <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <style>
+          body{background-color: #282727;}
+          .sidenav {
+    height: 100%;
+    width: 50px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+#right{
+    align:right;
+    position: absolute;
+    bottom:0px;
+}
+#col{
+    margin:10px;
+    color:#E8E8E8;
+}
+#dic{
+    
+    background-color:rgb(16, 15, 15);
+}
+
+        </style>
+        <!-- <script>
+            function openNav() {
+            document.getElementById("mySidenav").style.width = "200px";
+        }
+        </script>
+  -->
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-2">
+                    <div id="mySidenav" class="sidenav">
+                            <a href="#" ><i class="fa fa-home"></i></a>
+                            <a href="#"><i class="fa fa-search"></i></a> 
+                            <a href="#"><i class="fa fa-envelope"></i></a> 
+                            <a href="#"><i class="fa fa-globe"></i></a>
+                            <a href="#" id="right"><i class="fa fa-trash"></i></a>
+                    </div>
+                </div>
+                <div class="col-sm-10">
+                    <ul class="nav nav-tabs">
+                        <li><a href="">Welcome &times;</a></li>
+                    </ul>
+                    <h2 id="col">Visual Studio Code</h2>
+                    <h4 id="col">Editing evolved</h4>
+                    <div class="row">
+                        <div class="col-sm-6"><br>
+                            <p id="col">Start</p>
+                            <a href="#">New File</a><br>
+                            <a href="#">Open Folder</a><br>
+                            <a href="#">Add workspace folder...</a>
+                            <br><br><br>
+                            <p id="col">Recent<br>No recent folders</p>
+                            
+                            <br><br>
+                            <p id="col">Help</p>
+                            <a href="#">Printable Keyboard cheatsheet</a><br>
+                            <a href="#">Introductory videos</a><br>
+                            <a href="#">tips and tricks</a><br>
+                            <a href="#">product documentation</a><br>
+                            <a href="#">Github repository</a><br>
+                            <a href="#">Stack Overflow</a><br><br>
+                                
+                            <br>
+                            <input type="checkbox"><span id="col"> Show welcome page on startup</span>
+                        </div>
+                        <div class="col-sm-6"><br>
+                                <p id="col">Customise</p>
+                                <div class="row">
+                                    <div id= "dic"class="col-sm-10">
+                                        <p id="col">Tools And Languages<br>
+                                            Install support for <a href="#">Javascript</a>,<a href="#">Typescript</a>,<a href="#">Python</a>,
+                                            <a href="#">Php</a> and <a href="#">more</a>
+
+                                        </p>
+                                    </div>
+                                    <div class="col-sm-2"></div>
+                                </div><br>
+                                <div class="row">
+                                        <div id= "dic"class="col-sm-10">
+                                            <p id="col">Install Keyboard Shortcuts<br>
+                                                Install keyboard shortcuts of <a href="#">Vim</a>,<a href="#">Sublime</a>,<a href="#">atom</a>,
+                                                 and <a href="#">others </a>
+    
+                                            </p>
+                                        </div>
+                                        <div class="col-sm-2"></div>
+                                    </div><br>
+                                    <div class="row">
+                                            <div id= "dic"class="col-sm-10">
+                                                <p id="col">Color Theme<br>
+                                                    Make the editor and your code look the way you love
+        
+                                                </p>
+                                            </div>
+                                            <div class="col-sm-2"></div>
+                                        </div><br><br>
+                                        <p id="col">Learn</p>
+                                        <div class="row">
+                                                <div id= "dic"class="col-sm-10">
+                                                    <p id="col">Find  and run all commands<br>
+                                                       Rapidly access and search
+            
+                                                    </p>
+                                                </div>
+                                                <div class="col-sm-2"></div>
+                                            </div><br>
+                                            <div class="row">
+                                                    <div id= "dic"class="col-sm-10">
+                                                        <p id="col">Interface Overview<br>
+                                                          Get a visual overlay
+                
+                                                        </p>
+                                                    </div>
+                                                    <div class="col-sm-2"></div>
+                                                </div>
+                                                <br>
+                                                <div class="row">
+                                                        <div id= "dic"class="col-sm-10">
+                                                            <p id="col">Interactive playground<br>
+                                                               try essential editor features
+                    
+                                                            </p>
+                                                        </div>
+                                                        <div class="col-sm-2"></div>
+                                                    </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
